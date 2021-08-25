@@ -1,0 +1,318 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F0F2F5;
+}
+
+/*container*/
+.container {
+	height: 496px;
+	width: 980px;
+	margin: 70px auto;
+	padding: 20px 0px 20px 0px;
+	/*background-color: lightgrey;*/
+	display: flex;
+}
+
+/*header - title text*/
+.header-title {
+	height: 298px;
+	width: 580px;
+	/*background-color: grey;*/
+	padding: 0 32px 0 0;
+}
+
+.title {
+	height: 54px;
+	width: 548px;
+	/*background-color: lightblue;*/
+	padding:  112px 0 16px 0;
+}
+
+.title h1 {
+	font-size: 50px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	line-height: 16.08px;
+	color: #1877F2;
+}
+
+.desc {
+	height: 96px;
+	width: 500px;
+	/*background-color: lightgreen;*/
+	padding:  0 0 20px 0;
+}
+
+.desc h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #1C1E21;
+}
+
+/*section form*/
+.form-section {
+	height: 496px;
+	width: 396px;
+}
+
+.container-form {
+	height: 349px;
+	width: 396px;
+	margin: 40px 0 0 0;
+	padding: 10px 0 24px 0;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+	border-radius: 8px;
+}
+
+.form {
+	height: 315px;
+	width: 396px;
+	background-color: #FFFFFF;
+	
+}
+
+/*inputan*/
+.input {
+	height: 132px;
+	width: 396px;
+	/*background-color: grey;*/
+}
+
+.input input {
+	height: 22px;
+	width: 330px;
+	border-radius: 6px;
+	padding: 14px 16px 14px 16px;
+	border: 1px solid #DDDFE2;
+	font-size: 17px;
+	color: #90949C;
+	
+}
+
+.input input: {
+	/*border: 1px solid #1877F2;*/
+}
+
+/*input email / username*/
+.email {
+	height: 52px;
+	width: 364px;
+	padding: 6px 0 6px 0;
+	/*background-color: lightgreen;*/
+	margin: auto;
+}
+
+/*input password*/
+.password {
+	height: 52px;
+	width: 364px;
+	padding: 6px 0 6px 0;
+	margin: auto;
+}
+
+/*button login*/
+.button {
+	height: 48px;
+	width: 396px;
+	padding: 6px 0 0 0;	
+}
+
+.button button {
+	height: 48px;
+	width: 364px;
+	padding: 0 16px 0 16px;
+	background-color: #166FE5;
+	border: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 48px;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-spacing: 0px;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.button button:hover {
+	background-color: #0A63D9;
+}
+
+/*text lupa kata sandi*/
+.text {
+	height: 18px;
+	width: 396px;
+	margin: 16px 0 0 0;
+	text-align: center;
+}
+
+.text a {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: #1877F2;
+}
+
+.text a:hover {
+	text-decoration: underline;
+}
+
+/*line*/
+.garis {
+	width: 364px;
+	border-bottom: 1px solid  #DADDE1;
+	margin: 20px 16px 20px 16px;
+}
+
+/*button buat akun*/
+.buat-akun {
+	height: 48px;
+	width: 396px;
+	padding: 6px 0 0 0;
+	/*background-color: grey;*/
+}
+
+.buat-akun button {
+	height: 48px;
+	width: 160px;
+	padding: 0 16px 0 16px;
+	background-color:  #42B72A;
+	border-radius: 6px;
+	border: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 48px;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-spacing: 0px;
+	color: white;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.2s;
+
+}
+
+.buat-akun button:hover {
+	background-color: #00A900;
+}
+
+/*desc title*/
+.buat-halaman {
+	height: 18px;
+	width: 396px;
+	margin: 28px 0 0 0;
+	text-align: center;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.buat-halaman a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.buat-halaman a:hover {
+	text-decoration: underline;
+}
+
+/*footer*/
+.footer {
+	height: 186px;
+	width: 1349px;
+	background-color: white;
+	margin-top: 100px;
+}
+
+.footer-page {
+	height: 136px;
+	width: 1349px;
+	padding: 20px 0 0 0;
+	/*background-color: lightblue;*/
+}
+
+.content {
+	height: 136px;
+	width: 980px;
+	margin: 0 185px 0 185px;
+	/*background-color: lightgrey;*/
+}
+
+/*list bahasa*/
+.content ul {
+	height: 20px;
+	width: 980px;
+	padding: 8px 0 0 0;
+	display: flex;
+	list-style-type: none;
+}
+
+.content ul li {
+	margin-right: 10px;
+}
+
+.content ul li a {
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #737373;
+}
+
+.content ul li a:hover {
+	text-decoration: underline;
+}
+
+.border {
+	height: 8px;
+	width: 980px;
+	border-bottom: 1px solid #DDDFE2;
+	margin: 0 0 8px 0;
+}
+
+/*list halaman*/
+#list-page {
+	height: 57px;
+	width: 980px;
+	/*margin: 0 0 0 -20px;*/
+	list-style-position: outside;
+	/*background-color: green;*/
+	display: block;
+	color: #737373;
+}
+
+#list-page li {
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 19.2px;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+/*copyright*/
+.copyright {
+	height: 14px;
+	width: 980px;
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 14.74px;
+	color: #737373;
+}
